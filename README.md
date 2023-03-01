@@ -1,2 +1,2 @@
-# op-attestations-viz
-OP Attestations Visualization
+# op-attestations-explorer
+OP Attestations Explorer
