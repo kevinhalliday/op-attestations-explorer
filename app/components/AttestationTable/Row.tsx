@@ -19,7 +19,7 @@ function AttestationKey({ attestation: a }: { attestation: Attestation }) {
   ) : (
     <button
       onClick={() => selected.setKey(a.key)}
-      className="text-indigo-600 hover:text-indigo-900"
+      className="text-blue-600 hover:text-blue-900"
     >
       {formatAttestationKey(a.key)}
     </button>
@@ -60,7 +60,7 @@ function AttestationAsControl({ attestation: a }: { attestation: Attestation }) 
         onClick={() => display.as(a.key, 'raw')}
         className={
           as === 'raw'
-            ? 'bg-indigo-500 text-white rounded-l-md px-2 py-1'
+            ? 'bg-blue-500 text-white rounded-l-md px-2 py-1'
             : 'bg-gray-200 rounded-l-md px-2 py-1'
         }
       >
@@ -70,7 +70,7 @@ function AttestationAsControl({ attestation: a }: { attestation: Attestation }) 
         onClick={() => display.as(a.key, 'str')}
         className={
           as === 'str'
-            ? 'bg-indigo-500 text-white px-2 py-1'
+            ? 'bg-blue-500 text-white px-2 py-1'
             : 'bg-gray-200 px-2 py-1'
         }
       >
@@ -80,7 +80,7 @@ function AttestationAsControl({ attestation: a }: { attestation: Attestation }) 
         onClick={() => display.as(a.key, 'num')}
         className={
           as === 'num'
-            ? 'bg-indigo-500 text-white rounded-r-md px-2 py-1'
+            ? 'bg-blue-500 text-white rounded-r-md px-2 py-1'
             : 'bg-gray-200 rounded-r-md px-2 py-1'
         }
       >
@@ -97,7 +97,7 @@ function AttestationAddress({ address }: { address: string }) {
   ) : (
     <button
       onClick={() => selected.setAddress(address)}
-      className="text-indigo-600 hover:text-indigo-900"
+      className="text-blue-600 hover:text-blue-900"
     >
       {formatAddress(address)}
     </button>
@@ -136,7 +136,7 @@ function AttestationRow({
           href={`https://optimistic.etherscan.io/tx/${a.transactionHash}`}
           target="_blank"
           rel="noreferrer"
-          className="text-indigo-600 hover:text-indigo-900"
+          className="text-blue-600 hover:text-blue-900"
         >
           {formatAddress(a.transactionHash)}{' '}
           <BiLinkExternal className="inline" />
