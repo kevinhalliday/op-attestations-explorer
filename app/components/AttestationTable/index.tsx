@@ -15,7 +15,7 @@ function AttestationTable({
 }) {
   const rows = 10
   return (
-    <div className="relative flex flex-col w-screen p-4 my-8 x-auto 2xl:max-w-screen-2xl 2xl:w-xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm">
+    <div className="relative flex flex-col w-screen p-4 my-2 x-auto 2xl:max-w-screen-2xl 2xl:w-xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm">
       <SearchBar />
       <Tags />
       <div className="overflow-hidden border border-gray-200 shadow-md rounded-md">
