@@ -1,6 +1,12 @@
 api
 node_modules
 public/build
-.yarn
 .cache
 .env
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
