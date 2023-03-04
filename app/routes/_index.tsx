@@ -41,7 +41,7 @@ export default function Index() {
   return (
     <KeyDisplayProvider>
       <div className="flex flex-col items-center justify-center min-h-screen py-2 gap-4">
-        <p className="px-8 py-4 my-2 text-lg font-bold text-gray-400">
+        <h1 className="px-8 py-4 my-2 text-lg font-bold text-gray-400">
           Explore{' '}
           <a
             className="text-blue-400 hover:text-blue-500"
@@ -52,7 +52,7 @@ export default function Index() {
             attestations on Optimism
           </a>
           .
-        </p>
+        </h1>
         <AttestationTable
           attestations={data?.attestations ?? []}
           count={data?.count ?? 0}
