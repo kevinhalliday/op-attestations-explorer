@@ -1,0 +1,6 @@
+api
+node_modules
+public/build
+.yarn
+.cache
+.env
