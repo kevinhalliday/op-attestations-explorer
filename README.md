@@ -7,15 +7,11 @@ Take this README as the project's description, and our submission video can be f
 
 ## Usage
 
-
-- site is live at [https://op-attestations-explorer.vercel.app/](https://op-attestations-explorer.vercel.app/)
+- visit at [https://op-attestations-explorer.vercel.app/](https://op-attestations-explorer.vercel.app/)
 - page through the +1 million attestations on optimism
-- search by key
-    - [/?key=0x466c6970736964655f757365725f73636f72696e670000000000000000000000](https://op-attestations-explorer.vercel.app/?key=0x466c6970736964655f757365725f73636f72696e670000000000000000000000)
-- or by address
-    - [/?address=0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2](https://op-attestations-explorer.vercel.app/?address=0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2)
-- or both!
-    - [/?address=0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2&key=0x617667506f73744c696b65735477697474657200000000000000000000000000](https://op-attestations-explorer.vercel.app/?address=0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2&key=0x617667506f73744c696b65735477697474657200000000000000000000000000)
+- search by key [/?key={key}](https://op-attestations-explorer.vercel.app/?key=0x466c6970736964655f757365725f73636f72696e670000000000000000000000)
+- or by address [/?address={address}](https://op-attestations-explorer.vercel.app/?address=0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2)
+- or both! [/?address={address}&key={key}](https://op-attestations-explorer.vercel.app/?address=0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2&key=0x617667506f73744c696b65735477697474657200000000000000000000000000)
 
 
 This explorer uses [remix](https://remix.run/) to render a table of attestations that satisfy the user's request on the server before sending the page back to the user.
