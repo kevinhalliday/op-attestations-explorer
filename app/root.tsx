@@ -17,6 +17,9 @@ export const meta: MetaFunction = () => ({
   'og:title': 'OP Attestations Explorer',
   'og:description': 'Explore attestations on Optimism. Search by key or address.',
   'og:image': '/attestation-explorer-preview.png',
+  'og:type': 'website',
+  'og:url': 'https://op-attestations-explorer.vercel.app/',
+  'twitter:card': 'summary_large_image',
 })
 
 export const links: LinksFunction = () => [
