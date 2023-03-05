@@ -3,7 +3,7 @@
 Etherscan for [attestations on optimism](https://community.optimism.io/docs/governance/attestation-station/).
 
 Submission for Optimism's ETH Denver Buidl Bounty. Judges if you're here I botched my submission so I did not add a useful project description or demo video. But I worked hard on this so hope you forgive me!
-Take this README as the project's description, and our submission video can be found [here](https://www.youtube.com/watch?v=TPIwJ0a_k0k).
+Take this README as the project's description, and our submission video can be found [here](https://www.youtube.com/watch?v=TPIwJ0a_k0k). And here's [my tweet thread](https://twitter.com/_khalliday/status/1632494132366045185) 😬
 
 ## Usage
 
