@@ -4,6 +4,8 @@ public/build
 .cache
 .env
 
+**/.DS_Store
+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
